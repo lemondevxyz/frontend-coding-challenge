@@ -5,11 +5,15 @@ import GlobalStyle from './GlobalStyle';
 import store from './store';
 import Container from './components/Container';
 import H4 from './components/H4';
+import TournamentHeader from './components/TournamentHeader';
+import TournamentBody from './components/TournamentBody';
 
 const App = () => {
   return (
     <Container>
       <H4>FACEIT Tournaments</H4>
+      <TournamentHeader />
+      <TournamentBody />
     </Container>
   );
 };
